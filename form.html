@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Formulário</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/form.css">
+    </head>
+
+    <body>
+        <h1>Olá, faça o seu cadastro abaixo!</h1>
+        <div id="area">
+            <form id="formulario" autocomplete="off">
+                <fieldset>
+                    <legend>Formulário</legend>
+                    <label>Nome:</label><br><input class="campo_nome" type="text"><br>
+                    <label>E-mail:</label><br><input class="campo_email" type="text" required placeholder="name@gmail.com"><br>
+                    <label>Telefone: </label><br><input class="campo_telefone" type="text" required placeholder="(XX) XXXXX-XXXX">
+                    <h4>Sexo:</h4>
+                    <input type="radio" name="contato" value="feminino" required><label class="feminino">Feminino</label><br>
+                    <input type="radio" name="contato" value="masculino" required><label class="masculino">Masculino</label><br>
+                    <input type="radio" class="outro" name="contato" value="outro" required><label class="feminino">Outro</label><br><br><br>
+                    <input type="submit" value="Enviar" class="enviar">
+                    <h3>Já possui cadastro? <a href="login.html">Clique aqui!</a></h3>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

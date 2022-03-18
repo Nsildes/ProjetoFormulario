@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(lightpink, lightblue);
+}
+
+h1 {
+    position: absolute;
+    font-size: 20px;
+    top: 15%;
+    left: 38%;
+}
+
+#area {
+    position: relative;
+    left: 37%;
+    top: 25%;
+    width: 320px;
+    height: 280px;
+}
+
+#area #formulario {
+    position: absolute;
+    display: block;
+}
+
+fieldset {
+    width: 305px;
+    height: 295px;
+    border-radius: 8px;
+    display: block;
+}
+
+legend {
+    font-style: bold;
+}
+
+#formulario label {
+    position: absolute;
+    left: 21px;
+    margin-right:5px;
+}
+
+#formulario input.campo_nome {
+    position: absolute;
+    left: 70px;
+    top: 23px;
+    width: 250px;
+}
+
+#formulario input.campo_email {
+    position: absolute;
+    left: 72px;
+    top: 57px;
+    width: 250px;
+}
+
+#formulario input.campo_telefone {
+    position: absolute;
+    left: 83px;
+    top: 95px;
+    width: 239px;
+}
+
+#formulario label.feminino {
+    left: 40px;
+    width: 239px;
+}
+
+#formulario label.masculino {
+    left: 40px;
+    width: 245px;
+}
+
+#formulario label.outro {
+    left: 40px;
+    width: 239px;
+}
+
+.enviar {
+    width: 50%;
+    padding: 8px 20px;
+    margin-top: -20px;
+    background: pink;
+    font-size: -10px;
+    border-radius: 5px;
+    transform: scale(1. 2);
+    cursor: pointer;
+}
+
+.enviar:hover {
+    box-shadow: inset -10.5em 0 0 0
+    #ff96ad, inset 10.5em 0 0 0 #ff96ad;
+}
+
+h3 {
+    font-size: 13px;
+}
